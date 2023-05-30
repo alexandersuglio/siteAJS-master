@@ -1,0 +1,372 @@
+   * {
+       margin: 0;
+       padding: 0;
+   }
+
+   .bodyView {
+       overflow-x: hidden;
+   }
+
+
+   #about {
+            background-image: url('nycMetro.jpg');
+       background-position: left 25%;
+   }
+
+   #portfolio {
+       background-image: url('nycMetro.jpg');
+       background-position: left 50%;
+   }
+
+   #skills {
+       background-image: url('nycMetro.jpg');
+       background-position: left 75%;
+   }
+
+   .textWrap {
+       padding-bottom: 2vw;
+
+       background: linear-gradient(black, rgba(0, 0, 0, 0.8), black);
+   }
+
+   .portfolioWrap {
+              background: linear-gradient(black, rgba(0, 0, 0, 0.6), black);
+
+
+   }
+
+   #port-signs {
+
+       padding-top: 1vh;
+       padding-bottom: 5vh;
+       text-align: center;
+   }
+   #port-signs a {
+       margin: 1vw;
+   }
+
+   html,
+   body {
+       width: 100%;
+       height: 100%;
+   }
+
+   body {
+       width: 100%;
+       background: black;
+       overflow-y: scroll;
+   }
+
+#skillsWrap i
+  
+ {
+       margin-left: 0.9vw;
+       font-size: 4vw;
+       color: white;
+       text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+   }
+
+   p {
+       font-size: 1.5vw;
+       font-family: 'Open Sans', sans-serif;
+       color: rgba(255, 255, 255, .8);
+       padding-top: 0vw;
+       padding-left: 2vw;
+       padding-right: 2vw;
+       padding-bottom: 1vw;
+   }
+
+   .sky {
+       width: 100%;
+       -webkit-animation-name: skychange;
+       -webkit-transform: translateZ(0);
+       -webkit-animation-duration: 60s;
+       -webkit-animation-timing-function: ease-out;
+       -webkit-animation-iteration-count: infinite;
+       animation: skychange 60s infinite normal ease-out;
+   }
+
+   h1 {
+       font-family: 'Ramabhadra', sans-serif;
+       color: rgba(255, 255, 255, 0.9);
+   }
+
+   #about-head {
+       padding-left: 2vw;
+       font-size: 3vw;
+   }
+
+   #port-head {
+       padding-left: 2vw;
+         font-size: 3vw;
+   }
+
+   #skills-head {
+       padding-left: 2vw;
+         font-size: 3vw;
+                background: black;
+
+   }
+
+   #contact-head {
+    padding-left: 2vw;
+         font-size: 3vw;
+   }
+
+   #skillsWrap {
+       width: 100%;
+       position: absolute !important;
+      
+             padding-top: 7vw;
+             text-align: center;
+            }
+
+   @-webkit-keyframes skychange {
+       0% {
+           background: #ABEAFF;
+       }
+       20% {
+           background: #C4F0FF;
+       }
+       40% {
+           background: #FABBBB;
+       }
+       60% {
+           background: #022E7A;
+       }
+       80% {
+           background: #2F3233;
+       }
+       100% {
+           background: #ABEAFF;
+       }
+   }
+
+   @keyframes skychange {
+       0% {
+           background: #ABEAFF;
+       }
+       20% {
+           background: #C4F0FF;
+       }
+       40% {
+           background: #FABBBB;
+       }
+       60% {
+           background: #022E7A;
+       }
+       80% {
+           background: #2F3233;
+       }
+       100% {
+           background: #ABEAFF;
+       }
+   }
+
+   .city img {
+       width: 100%;
+   }
+
+
+   .subwayWrap,
+   .subwayWrap2 {
+       position: relative;
+   }
+
+   .subwayArt {
+       width: 20% !important;
+       position: absolute;
+       top: 4vw !important;
+       left: 20vw !important;
+   }
+
+   .subwayArt2 {
+       width: 20% !important;
+       position: absolute;
+       top: 4vw !important;
+       right: 20vw !important;
+   }
+
+   #first,
+   #last {
+       font-size: 5vw;
+   }
+
+   #nameWrap {
+       margin-top: 0vw;
+       padding-left: 4vw;
+       margin-bottom: 1vw;
+   }
+
+   #last {
+       margin-top: -4vw;
+   }
+
+   #arrayHere {
+       margin-left: 17vw;
+       margin-top: -15vw;
+       font-size: 7vw;
+   }
+
+   .carWrap img {
+       width: 100%;
+       z-index: 1;
+       position: absolute;
+       bottom: 15px;
+       -webkit-animation-name: carMove;
+       -webkit-transform: translateZ(0);
+       -webkit-animation-duration: 2.5s;
+       -webkit-animation-timing-function: linear;
+       -webkit-animation-iteration-count: infinite;
+       animation: carMove 2.5s infinite linear;
+       filter: blur(1px);
+   }
+
+   @-webkit-keyframes carMove {
+       0% {
+           left: -100%;
+       }
+       100% {
+           left: 100%;
+       }
+   }
+
+   @keyframes carMove {
+       0% {
+           left: -100%;
+       }
+       100% {
+           left: 100%;
+       }
+   }
+
+   .carWrap2 img {
+       width: 100%;
+       z-index: 1;
+       position: absolute;
+       bottom: 15px;
+       -webkit-animation-name: carMoveii;
+       -webkit-transform: translateZ(0);
+       -webkit-animation-duration: 2.5s;
+       -webkit-animation-timing-function: linear;
+       -webkit-animation-iteration-count: infinite;
+       animation: carMoveii 2.5s infinite linear;
+       filter: blur(1px);
+   }
+
+   @-webkit-keyframes carMoveii {
+       0% {
+           left: 100%;
+       }
+       100% {
+           left: -100%;
+       }
+   }
+
+   @keyframes carMoveii {
+       0% {
+           left: 100%;
+       }
+       100% {
+           left: -100%;
+       }
+   }
+   /*before media queries*/
+   /*large monitors*/
+
+   a img:hover {
+       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
+   }
+
+   .subwayWrap img {
+       width: 100%;
+   }
+
+   .subwayWrap2 img {
+       width: 100%;
+   }
+   /*Laptops*/
+
+   @media (max-width: 1024px) {
+       .subwayWrap img {
+           width: 100%;
+       }
+       .subwayWrap2 img {
+           width: 100%;
+       }
+   }
+   /*Tablets*/
+
+   @media (max-width: 768px) {
+   
+       .subwayWrap img {
+           width: 100%;
+       }
+       .subwayWrap2 img {
+           width: 100%;
+       }
+   }
+   /*Small devices*/
+
+   @media (max-width: 425px) {
+       .subwayWrapimg {
+           width: 100%;
+       }
+       .subwayWrap2 img {
+           width: 100%;
+       }
+       .devicon-git-plain,
+       .devicon-mysql-plain-wordmark,
+       .devicon-nodejs-plain-wordmark,
+       .devicon-mongodb-plain-wordmark,
+       .devicon-jquery-plain-wordmark,
+       .devicon-javascript-plain,
+       .devicon-heroku-plain-wordmark,
+       .devicon-css3-plain-wordmark,
+       .devicon-html5-plain-wordmark,
+       .devicon-photoshop-plain {
+           margin-left: 1vw;
+           font-size: 4vw;
+           color: white;
+           text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+       }
+   }
+
+
+   #contact{
+    background-color: black;
+     padding-bottom: 3vh;
+     /*padding-top: 1vh;*/
+   }
+
+   h3  {
+
+     font-family: 'Ramabhadra', sans-serif;
+       color: rgba(255, 255, 255, 0.9);
+       font-size: 2vw;
+   }
+
+   .contactChildren {
+    display: inline-block;
+    margin-left: 10vw !important;
+margin-right: 10vw !important;
+margin-top: 1vh;
+   }
+.contact-link{
+  font-family: 'Ramabhadra', sans-serif;
+/*  padding-top: 10px !important;
+    padding-bottom: 10px !important;*/
+  color: white;
+        font-size: 1.5vw;
+        text-decoration: none;
+ }
+#contact-phone {
+  font-family: 'Ramabhadra', sans-serif;
+  color: white;
+        font-size:1.5vw;
+
+}
+#left {
+  margin-left: 5vw !important;
+}
+
